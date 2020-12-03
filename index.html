@@ -16,26 +16,25 @@
          <form class="form" action="#"> 
             <div class="form-control">
              <label>Name:</label>
-                <input type="text" name="name" id="username" placeholder="Enter your fullname"required >
+                <input type="text" name="name" id="name" placeholder="Enter your fullname"required >
             </div>
             <div class="form-control">
              <label>Email:</label>
-                <input type="email" name="" id="emailId" placeholder="Enter your Email" required>
+                <input type="email" id="email" placeholder="Enter your Email" required>
             </div>
             <div class="form-control">
              <label>Phone:</label>
-                <input type="number" name="" id="phone" placeholder="Enter your Phone Number" required>
+                <input type="number" id="phone" placeholder="Enter your Phone Number" required>
             </div>
             <label>Time for Call:</label>
             <div class="form-control">
-                <input type="date" name="" class="Tac" id="date">
-                <input type="time" name="" class="Tac" id="time">
+                <input type="date" class="Tac" id="date">
+                <input type="time" class="Tac" id="time">
             </div>
-           
-            <button type="submit" id="myBtn" name="">Get a Call</button>
-
-            <script src="script.js"></script>
+            <button type="submit" id="submit" value="Submit">Get a Call</button>
          </form>
     </div>
+    <ul id="listOfPeople"></ul>
+    <script src="bookingPage/script.js"></script>
 </body>
 </html>

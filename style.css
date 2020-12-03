@@ -8,8 +8,8 @@ body {
 }
 
 .booking {
-  width: 620px;
-  height: 535px;
+  width: calc(100% - 53%);
+  line-height: 16px;
   background: rgba(0, 0, 0, 0.5);
   color: rgba(225, 226, 231, 0.94);
   top: 0%;
@@ -58,7 +58,7 @@ input[type="number"]:focus {
   outline: none;
 }
 
-#myBtn {
+#submit {
   background-color: #4ca0af;
   color: white;
   padding: 16px 20px;
@@ -70,6 +70,6 @@ input[type="number"]:focus {
   opacity: 0.9;
 }
 
-#myBtn:hover {
+#submit:hover {
   opacity: 1;
 }
